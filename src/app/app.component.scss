@@ -1,0 +1,25 @@
+.grid-wrapper {
+    height: 100vh;
+    position: relative;
+    background-color: aquamarine;
+    
+}
+
+.menu-container {
+    height: 100vh;
+    background-color: cornsilk;
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.page-wrapper {
+    padding-left: 200px;
+}
+
+.toolbar-container {
+    height: 60px;
+    background-color: cyan;
+
+}

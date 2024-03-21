@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    padding: 10px;
+    flex-flow: column wrap;
+    height: 100%;
+    justify-content: flex-start;
+  
+}
+nav ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+nav ul li a.active{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    transition: all 0.3s;
+
+}
+nav ul li a.active:hover{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    display: block;
+    border-bottom: 2px solid whitesmoke;
+    transition: all 0.3s;
+
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    display: block;
+    border-bottom: 2px solid darkgray;
+    transition: all 0.3s;
+}
